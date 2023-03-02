@@ -1,7 +1,4 @@
-export type DataPoint = {
-  date: string;
-  value: number;
-};
+import {DataPoint} from './Types';
 
 export const originalData: DataPoint[] = [
   {date: '2000-02-01T05:00:00.000Z', value: 250},

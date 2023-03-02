@@ -6000,6 +6000,11 @@ plist@^3.0.2, plist@^3.0.4:
     base64-js "^1.5.1"
     xmlbuilder "^9.0.7"
 
+polymorph-js@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/polymorph-js/-/polymorph-js-1.0.2.tgz#1e23bc9f6bbdc4738b00d08f01d1e192f34f0570"
+  integrity sha512-moIVGNoyYwhzzl6DWssvJyUxE4y6Coe06JGaQ0tUd+DBzZLC5SD4Vc4fH3Etk9bJ2633AozHF2x00/IqH/iXYg==
+
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"

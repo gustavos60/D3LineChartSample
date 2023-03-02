@@ -1,23 +1,9 @@
 import React from 'react';
-import {Dimensions, StyleSheet, SafeAreaView} from 'react-native';
+import {StyleSheet, SafeAreaView} from 'react-native';
 
 import Animated from 'react-native-reanimated';
+import {CARD_HEIGHT, CARD_WIDTH, GRAPH_HEIGHT, GRAPH_WIDTH} from './Constants';
 import LineChart from './LineChart';
-
-const {width} = Dimensions.get('screen');
-
-const CARD_WIDTH = width - 20;
-const GRAPH_WIDTH = CARD_WIDTH - 60;
-const CARD_HEIGHT = 325;
-const GRAPH_HEIGHT = 200;
-
-export type GraphData = {
-  max: number;
-  min: number;
-  curve: string;
-};
-
-const graphData: GraphData[] = [];
 
 const App = () => {
   return (
@@ -26,7 +12,6 @@ const App = () => {
         <LineChart
           height={GRAPH_HEIGHT}
           width={GRAPH_WIDTH}
-          data={graphData}
           bottomPadding={20}
           leftPadding={0}
         />
